@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <title>Vuela - Children´s Clinic</title>
+</head>
+<body>
+    <header>
+        <div>
+            <div id="logoHeader">
+                <img src="img/Logo1.jpeg" alt="logoVuela" width="100" height="100"/>
+            </div>
+            <div>
+                <nav>
+                    <a>Aguacate</a>
+                    <a>Papaya</a>
+                    <a>Salmorejo</a>
+                    <a>Torrezno</a>
+                    <a>Sobre nosotros</a>
+                </nav>
+            </div> 
+        </div>   
+    </header>
+    <main>
+        <section class="portada">
+
+        </section>
+        <section class="aguacate">
+            <h1>AGUACATE</h1>
+            <p>Persea americana, llamado popularmente aguacate,​ palto (Argentina, Bolivia, Chile, Perú y Uruguay),​ curo (Andes colombianos y venezolanos),​ aguacatero (República Dominicana, Puerto Rico y Venezuela)​ o avocado (Filipinas), es una especie arbórea del género Persea perteneciente a la familia Lauraceae, cuyo fruto, el aguacate,​ palta o avocado,​ es una baya comestible.​ Es una especie originaria de Mesoamérica, específicamente de las partes altas del centro y este de México, Guatemala y El Salvador. Las evidencias más antiguas de su uso se encontraron en Coaxcatlán (México) y datan de hace unos 10.000 años.​ Actualmente, la especie se cultiva en lugares con climas tropical y mediterráneo en todo el mundo. La gran demanda de aguacate ha hecho que sus plantaciones transformen grandes extensiones de ecosistemas nativos.</p>
+            <img src="img/aguacate.jpg" width="500px" height="400px"/>
+        </section>
+        <section class="papaya">
+            <h1>PAPAYA</h1>
+            <p>Carica papaya es la papaya herbácea del género Carica en la familia Caricaceae. Su fruto se conoce comúnmente como papaya, papayón, fruta bomba, olocotón, papayo, mamón, lechosa o lechoza.[cita requerida] 
+            Carica del griego “karike”, nombre de una higuera. Papaya, deriva del maya “páapay-ya” que significa zapote jaspeado. Pertenece a la familia de las Caricaceae. La planta de papaya es una especie arborescente perennifolia.2</p>
+            <img src="img/papaya.jpg" width="500px" height="400px"/>
+        </section>
+        <section class="salmorejo">
+            <h1>SALMOREJO</h1>
+            <p>Cuando visité Córdoba, haciendo un recorrido por su gastronomía, tuve el honor de ser nombrado embajador de la Cofradía del Salmorejo y no podía dejar pasar ese honor sin contaros cómo se hace la receta del salmorejo cordobés tradicional, una sopa fría como la mazamorra con la que siempre quedo bien contento, especialmente en los días calurosos de primavera y verano, y que es una de las mejores recetas de la cocina andaluza.</p>
+            <img src="img/salmorejo.jpg" width="500px" height="400px"/>
+        </section>
+        <section class="torrezno">
+            <h1>TORREZNO</h1>
+            <p>Un torrezno (de torrar, del lat. torrēre, tostar, acercar algo al fuego hasta que toma color) es una tira de tocino, siempre con su piel, frita o salteada en sartén o tostada en una parrilla. Habitualmente los torreznos quedan crujientes y dorados por el lado de la piel. Suelen comerse como tapa o como guarnición.1​ No es cierto, como se afirma en diversas publicaciones2​3​4​ que los torreznos tengan la categoría de patrimonio gastronómico de la humanidad por la UNESCO. Ni siquiera existe tal categoría, sino la de Bien Inmaterial. La UNESCO no tiene dicha consideración para ningún alimento en concreto, sino para tradiciones culturales gastronómicas completas, como la dieta mediterránea, como se puede comprobar en la lista de Bienes Inmateriales de España de la propia UNESCO.</p>
+            <img src="img/torrezno.jpg" width="500px" height="400px"/>
+        </section>
+        <section class="sobrenosotros">
+            <h1>SOBRE NOSOTROS</h1>
+            <div id="map"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerContenedor">
+            <div id="caja">
+                <div><img src="img/Logo1.jpeg" alt="logoVuela" width="100" height="100"/></div>
+                <div>El aliento de mi gato huele a comida de gato</div>
+            </div>
+            <div id="caja">
+                <div id="tituloFooter"><h3>SOBRE NOSOTROS</h3></div>
+                <div class="verticalEnlace">
+                    <a>Aguacate</a>
+                    <a>Papaya</a>
+                    <a>Salmorejo</a>
+                    <a>Torrezno</a>
+                </div>
+            </div>
+            <div id="caja">
+                <div id="tituloFooter"><h3>CONTACTO</h3></div>
+                <div class="verticalEnlace">
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path> <path d="M15 7a2 2 0 0 1 2 2"></path><path d="M15 3a6 6 0 0 1 6 6"></path>
+                        </svg> 
+                        666 666 666
+                    </a>
+
+                    <a href="https://www.google.com/maps/place/Estadio+de+la+Cer%C3%A1mica/@39.9438858,-0.1031381,17z/data=!3m1!4b1!4m6!3m5!1s0xd600703465a2eff:0x18990f52d798f44a!8m2!3d39.9438858!4d-0.1031381!16zL20vMGI4djIz?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path> <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
+                        </svg> 
+                        C. Gerard Moreno, 7, 28545 Estadio La Cerámica, Villarreal
+                    </a>
+
+                    <a href="https://www.gmail.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path><path d="M3 7l9 6l9 -6"></path>
+                        </svg> 
+                        vuelacomounagaviota@gmail.com
+                    </a>
+                </div>
+            </div>
+            <div id="caja">
+                <div id="tituloFooter"><h3>REDES</h3></div>
+                <div class="horizontalEnlace">
+                    <a href="https://www.instagram.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path> <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path> <path d="M16.5 7.5l0 .01"></path></svg>
+                    </a>
+                    <a href="https://www.youtube.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z"></path> <path d="M10 9l5 3l-5 3z"></path></svg>
+                    </a>
+                    <a href="https://twitter.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path> <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <script>
+        // Crear el mapa y establecer las coordenadas iniciales
+        var map = L.map('map').setView([39.944167, -0.103611], 12);  // Coordenadas: latitud, longitud
+
+        // Cargar el mapa desde OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Colocar un marcador en las coordenadas
+        L.marker([39.944167, -0.103611]).addTo(map)
+            .bindPopup('Vuela - Clínica infantil')
+            .openPopup();
+    </script>
+</body>
+</html>
